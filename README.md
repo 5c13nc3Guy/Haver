@@ -20,12 +20,7 @@ https://www.linkedin.com/in/haver-scot-5432641b5/
 
 
 <b>Getting Started</b>
-Dependencies
-Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-ex. Windows 10
-Installing
-How/where to download your program
-Any modifications needed to be made to files/folders:
+
 Executing program:
   How to run the program:
 
@@ -41,7 +36,7 @@ Any advise for common problems or issues:
 <b>Authors</b>
 Contributors names and contact info
 
-Bobby King
+Bobby King <br>
 Steve Miller-Perry
 
 <b>Version History</b>
@@ -54,7 +49,11 @@ Initial Release (unknown)
 License: This Haver project is licensed under the (licence to be created dependent on restrictions outlined by B.King)
 
 Acknowledgments
-Inspiration, code snippets, etc.
+
+<b>## Contributing</b>
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+<i>Please make sure to update tests as appropriate.</i>
 
 https://abookapart.com/products/conversational-design
 -------
