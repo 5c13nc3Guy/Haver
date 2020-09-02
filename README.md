@@ -3,11 +3,11 @@ Repository for Haver.scot
 
 <b>Haver.scot</b>
 We cut through the haver to discuss real issues, insights and design principles with start-ups and creatives.
-We can help your organisation with every stage of the User-Centered Design process.
-User Research
-UX Design
-Service Design
-Marketing
+We can help your organisation with every stage of the User-Centered Design process.<br>
+User Research<br>
+UX Design<br>
+Service Design<br>
+Marketing<br>
 
 <b>Description</b>
 An in-depth paragraph about your project and overview of use.
