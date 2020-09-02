@@ -1,4 +1,4 @@
-<b># Haver</b>
+<h1><b># Haver</b></h1>
 Repository for Haver.scot
 
 <b>Haver.scot</b>
