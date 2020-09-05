@@ -10,7 +10,7 @@ Service Design<br>
 Marketing<br>
 
 <b>Description</b>
-An in-depth paragraph about your project and overview of use.
+The Haver startup will require changes to the markup, where Github version control will allow for safe changes to be commited.
 
 <b>Additional supporting software for Haver</b>
 https://miro.com/app/board/o9J_krOhp4E=/
