@@ -1,0 +1,368 @@
+* {
+   -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+    }
+	
+body{
+  font-family: 'Fira Sans';
+  font-weight: 400;
+  background-color: #FFF;
+  font-size: 1rem;
+  line-height: 1.8rem;
+  padding: 0;
+  margin: 0
+}
+	
+header{
+  background-color: #FFF;
+  margin: 0;
+  color: #1e1e1e;
+  padding: 1em 1em 1em 1em
+}
+
+#logo{
+	width:5rem
+}
+
+h1{font-family: 'Fira mono', monospace;}
+
+main h3{margin:0}
+
+#grid{
+	display:grid;
+	  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	  grid-gap: 1rem;
+	margin-bottom:1em
+}
+
+.squareDiv p {margin: 0}
+
+#topNav {
+  background-color:#0e0e0e;
+  padding:0.2em 1em
+}
+
+#topNav a{
+  margin-right:1em;
+  color:#FFF;
+  text-transform:uppercase;
+  text-decoration:none;
+  font-family: 'Fira mono';
+}
+
+#topNav a:hover{
+  border-bottom:12px solid white;
+}
+
+#topNav a:focus{
+  border-bottom:12px solid white;
+}
+
+#activePage{
+  border-bottom:12px solid white;
+}
+
+main{
+	width:100%;
+  padding: 1em 2em;
+}
+
+#manifesto{
+  padding: 1em;
+  font-size: 1rem;
+}
+
+h1{
+	line-height:2rem;
+	margin: 1em 0 0 0
+}
+
+#subTitle{
+	color:#404040;
+	font-size:1.3rem;
+	line-height:1.4rem;
+	margin:0.5rem 0 0 0
+}
+
+.panel{
+	margin:0
+}
+
+#banner-image{
+	width:100%
+}
+
+.image-box{/*for square images*/
+	display:block;
+	margin:0 auto
+}
+
+.image-2-box{ /*for images around two squares wide*/
+	display:block;
+	margin:0 auto
+}
+
+.caption{
+	margin:0;
+	text-align:center
+}
+
+.infoBox{
+	padding:1em;
+	/*background-color:#f1eeee*/
+	border:1px solid #d0d0d0;
+}
+
+.callout{
+	font-size:1.6em;
+	line-height:1.3em
+}
+
+.bloglink{
+  color: #404040;
+  font-size: 1em;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.bloglink:hover{
+  text-decoration: underline
+}
+
+.bloglink:focus{
+  text-decoration: underline
+}
+
+
+#zine-list ul{
+
+	padding:0
+}
+
+#zine-list li{
+	
+	list-style:none;
+	border-bottom: 1px solid #d0d0d0
+}
+
+#zine-list li:last-child{
+	border:none
+}
+
+#zine-list h3{
+	padding-top:1em;
+	line-height:1.4em
+}
+
+#zine-list a{
+	color: #404040;
+	text-decoration:none
+}
+
+#zine-list a:hover{
+	text-decoration:underline
+}
+
+#zine-list a:focus{
+	text-decoration:underline
+}
+
+#zine-list p{
+	margin:0.2em 0;
+	padding-bottom:1em;
+}
+
+#zine-list p:last-child{
+	border:none
+}
+
+.footer {
+  font-family: 'Helvetica', sans-serif;
+  width: 100%;
+  background: #000;
+  color: #fff;
+  padding: 1em 0 1em 2em;
+  clear: left
+}
+
+#footer {
+  width:100%;
+  margin:0 auto;
+}
+
+.footer a{
+  color:#fdf1c1
+}
+
+
+/* 'Back to top' button */
+#myBtn{
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #666; /* Set a background color */
+    color: #FFF; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #fdf1c1;
+    color:#000;
+}
+
+#hire-us{
+	margin:1em 0;
+	padding:1em;
+	font-size:1.2em;
+	background-color:#fedd00;
+	text-decoration:none;
+	color:black
+}
+
+/*------------------------------------*\
+    devices with a screen width of under 768
+\*------------------------------------*/
+
+@media only screen and (max-width: 767px) {
+	.image{
+	  width:100%; 
+	}
+	
+    .image-box{
+		width:50%;
+	}
+	
+	.image-2-box{
+		width:60%;
+	}
+	
+	main{
+      width: 100%
+    }
+	
+	.panelart{
+		width:100%;
+		margin: 0 auto
+	}
+	
+	.squareDiv{
+		padding-bottom: 2em;
+	}
+}
+
+/*------------------------------------*\
+    devices with a screen width of between 768 and 1064
+\*------------------------------------*/
+
+@media only screen and (min-width: 768px) {
+	html{
+		background-color:#00dc92
+	}
+	
+	main{
+      width: 100%
+    }
+	
+	body{
+      width: 80%;
+	  margin: 0 auto
+    }
+	
+	.image{
+	  width:100%; 
+
+	}
+	
+    .image-box{
+		width:50%;
+	}
+	
+	.image-2-box{
+		width:50%;
+	}
+	
+	.panelart{
+		width:100%;
+		margin: 0 auto
+	}
+	
+	.squareDiv{
+		padding-bottom: 2em;
+	}
+}
+
+
+/*------------------------------------*\
+    devices with a screen width greater than 1064px
+\*------------------------------------*/
+
+
+@media only screen and (min-width: 1064px) {
+	html{
+		background-color:#00dc92
+	}
+	
+	body{
+	  width:50%;
+      margin: 0 auto	  
+	}
+	
+	.image{
+	  width:100%;
+	  margin: 0 0 1% 0
+	}
+	
+	.image-box{
+		width:30%;
+	}
+	
+		.image-2-box{
+		width:60%;
+	}
+	
+	main{
+        width:100%
+    }
+	
+	.twoColumns{
+	  display:inline-block; 
+	  width:100%;
+	  margin:0 0 0.5em 0
+	}
+	
+	.squareDiv{
+      border:1px solid #d0d0d0;
+
+	}
+	
+	.squareDiv h3{
+	  line-height:1.6rem;
+	  margin:0.5em 1em 0 0.9em
+	}
+	
+	.squareDiv p{
+	  line-height:1.4rem;
+	  margin:0.2em 1em 0 1em
+	}
+	
+	.squareDiv:nth-child(1) {
+   	  margin-right:1%;
+    }
+	
+    .squareDiv:nth-child(2) {
+   	  margin-left:1%;
+    }
+	
+	#zine-list{
+	  padding:1em;
+	  border:1px solid #d0d0d0;
+    }
+}
