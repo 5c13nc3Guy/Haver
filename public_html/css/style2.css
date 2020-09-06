@@ -1,0 +1,191 @@
+* {
+   -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+    }
+	
+body{
+  font-family: 'Fira Sans';
+  font-weight: 400;
+  background-color: #FFF;
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+  padding: 0;
+  margin: 0
+}
+	
+header{
+  background-color: #FFF;
+  margin: 0;
+  color: #1e1e1e;
+  padding: 1em 1em 2em 1em
+}
+
+#logo{
+	width:5rem
+}
+
+header h1{
+  line-height: 1.3em;
+}
+
+main h3{margin:0}
+
+.squareDiv p {margin: 0}
+
+#topNav {
+  background-color:#000;
+  padding:0.5em 1em
+}
+
+#topNav a{
+  margin-right:1em;
+  color:#FFF;
+  text-transform:uppercase;
+  text-decoration:none
+}
+
+#activePage{
+  border-bottom:12px solid white;
+}
+
+main{
+  padding: 1em 2em;
+}
+
+#manifesto{
+  padding: 1em;
+  font-size: 1rem;
+}
+
+h1{
+	line-height:1.2em;
+	margin: 1em 0 0 0
+}
+
+#subTitle{
+	color:#404040;
+	font-size:1.6rem;
+	margin:0
+}
+
+.panel{
+	margin:0
+}
+
+#banner-image{
+	width:100%
+}
+
+.infoBox{
+	padding:1em;
+	background-color:#f1eeee
+}
+
+.callout{
+	font-size:1.6em;
+	line-height:1.3em
+}
+
+.bloglink{
+  color: #404040;
+  font-size: 1em;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer {
+  font-family: 'Helvetica', sans-serif;
+  width: 100%;
+  background: #000;
+  color: #fff;
+  padding: 1em 0 1em 2em;
+  clear: left
+}
+
+#footer {
+  width:100%;
+  margin:0 auto;
+}
+
+.footer a{
+  color:#fdf1c1
+}
+
+
+/* 'Back to top' button */
+#myBtn{
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #666; /* Set a background color */
+    color: #FFF; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #fdf1c1;
+    color:#000;
+}
+
+/*------------------------------------*\
+    devices with a screen width of under 767px
+\*------------------------------------*/
+
+@media only screen and (max-width: 767px) {
+	.image{
+	  width:5em;
+      height:5em;	  
+	  margin-top: 1em;
+	}
+	
+	main{
+      width: 100%
+    }
+	
+	.panelart{
+		width:100%;
+		margin: 0 auto
+	}
+}
+
+
+/*------------------------------------*\
+    devices with a screen width greater than 768px
+\*------------------------------------*/
+
+
+@media only screen and (min-width: 768px) {
+	html{
+		background-color:#00dc92
+	}
+	
+	body{
+	  width:50%;
+      margin: 0 auto	  
+	}
+	
+	.image{
+	  	  width:6em;
+      height:6em;	
+	  margin: 0.2em 1em 1em 0;
+	  float:left
+	}
+	
+	
+	.squareDiv{
+	  padding:1em;
+	  display:inline-block; 
+	}
+	
+    .panelart{
+		width:768px
+	}
+}
